@@ -2,9 +2,12 @@ Chiaten Wang
 ============
 
 
------------
-
-----
+-----------------------------------------------------
+**Email**:          [chiatzen.wang@mail.utoronto.ca](mailto:chiatzen.wang@mail.utoronto.ca)
+**Phone**:          [(647) 325-8620](tel:+quit:+1+647+325+8620)
+**Github**:         [chiatzenW](https://github.com/ChiatzenW)
+=======================
+----------------------
 Education
 ---------
 
@@ -13,32 +16,41 @@ Education
 
     * University College | GPA:3.90
         Specialist in Computer Science
+: **Awards:**
+    * Archibald Macmurchy Memorial Scholarship, 2020
+    * Dean's List, 2020
+    * University College Special In-Course Scholarship, 2021
+    * Dean's List, 2021
 
+
+
+------------------
 Technical Experience
 --------------------
 
-Projects
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+Sample Projects
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+:   **[pinned-item-to-mui-cards](https://github.com/ChiatzenW/pinnedItems_to_mui_cards):**
+Javascript script that generates  material ui cards from pinned items on Github page. 
+Demonstrates skills with React, Material UI, and Github API(GraphQL).
+:  **[what-did-schiller-say](https://github.com/ChiatzenW/what-did-schiller-say)**
+     A webapp hosted on Heroku that given a string will search for its occurrences in Schiller's *The Robber*, parsed and stored in SQL database from Project Gutenberg. 
+     Demonstrates skills with SQL and web hosting with heroku.
+:  **[random-chinese-character-generator](
+
+    
+
 
 
 Skills
 :   **Languages:** 
-    Python, java, javascript, lua, C, C++
+    Python, java, javascript, lua, C, C++, Shellscript
 :   **Graphic Libraries:**
     [Love](https://love2d.org/), pygame, [Kivy](https://kivy.org/#home), CanvasJS 
 
 :   **Others:**
-    Socket.io, GraphQL, Spring framework, experience with Android development.
+    Socket.io, GraphQL, Spring framework, heroku, Amazon lambda, sever hosting,material-ui design with javascript, experience with Android development.
 
-[ref]: https://github.com/githubuser/superlongprojectname
 
 
 ----
-
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
