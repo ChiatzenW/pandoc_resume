@@ -1,9 +1,11 @@
 Chiaten Wang
 ===========================================================
+<hr/>
+
 **Email**:          [chiatzen.wang@mail.utoronto.ca](mailto:chiatzen.wang@mail.utoronto.ca)  
 **Phone**:          [(647) 325-8620](tel:+quit:+1+647+325+8620)    
 **Github**:         [chiatzenW](https://github.com/ChiatzenW)   
-**Portfolio Site:**  https://chiatzenw.github.io/portfolio/  
+**Portfolio Site:** [ chiatzenw.github.io/portfolio/](chiatzenw.github.io/portfolio/)
 <hr/>
 
 Education
@@ -13,16 +15,13 @@ Education
 :   **Bachelor of Science**; University of Toronro
 
     * University College | GPA:3.90  
-        Specialist in Computer Science
-: **Awards:** 
-    * Archibald Macmurchy Memorial Scholarship, 2020  
-    * Dean's List, 2020  
-    * University College Special In-Course Scholarship, 2021  
-    * Dean's List, 2021  
+    Specialist in Computer Science
+: **Awards:**   
+     Archibald Macmurchy Memorial Scholarship, 2020  
+     Dean's List, 2020  
+     University College Special In-Course Scholarship, 2021  
+     Dean's List, 2021  
 
-
-
-------------------
 Technical Experience
 --------------------
 
