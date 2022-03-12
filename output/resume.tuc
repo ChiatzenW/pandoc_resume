@@ -42,9 +42,6 @@ if not utilitydata.job then utilitydata.job = { } end
 if not utilitydata.job.passes then utilitydata.job.passes = { } end
 
 utilitydata.job.passes.collected={
- ["itemgroup:itemize:1"]={
-  { 1, 0 },
- },
 }
 
 if not utilitydata.job then utilitydata.job = { } end
@@ -130,7 +127,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["itemgroup:itemize"]={
-  { 0, 1 },
+  { 0 },
  },
  ["itemgroup:itemize:note"]={
   { 0 },

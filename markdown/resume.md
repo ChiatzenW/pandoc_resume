@@ -14,7 +14,7 @@ Education
 2020-present
 :   **Bachelor of Science**; University of Toronro
 
-    * University College | GPA:3.90  
+    University College | GPA:3.90  
     Specialist in Computer Science
 : **Awards:**   
      Archibald Macmurchy Memorial Scholarship, 2020  
