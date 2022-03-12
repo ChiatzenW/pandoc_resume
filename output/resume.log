@@ -16,18 +16,6 @@ close source    > level 3, order 4, name '/usr/share/texmf-dist/tex/context/font
 structure       > sectioning > section @ level 3 : 0.0.1 -> Chiaten Wang
 structure       > sectioning > subsection @ level 4 : 0.0.1.1 -> Education
 structure       > sectioning > subsection @ level 4 : 0.0.1.2 -> Technical Experience
-
-Overfull \hbox (5.84058pt too wide) in paragraph at lines 108--113
- <1: texgyreheros-regular @ 11.0pt> from Project Guten-berg. Demon-strates skills with SQL and web host-ing with heroku. 
-
-\hbox(8.21819+2.39835)x483.69687, glue set - 1.0, direction TLT
-.\glue(\leftskip) 91.0488
-.<1: texgyreheros-regular @ 11.0pt> f
-.<1: texgyreheros-regular @ 11.0pt> r
-.\kern-0.05501 (font)
-.<1: texgyreheros-regular @ 11.0pt> o
-.etc.
-
 backend         > xmp > using file '/usr/share/texmf-dist/tex/context/base/mkiv/lpdf-pdx.xml'
 pages           > flushing realpage 1, userpage 1, subpage 1
 close source    > level 2, order 4, name '/home/chiatzenw/pandoc_resume/output/resume.tex'
@@ -89,26 +77,26 @@ modules         > stop used modules
 
 mkiv lua stats  > used config file: selfautodir:/share/texmf-dist/web2c/texmfcnf.lua
 mkiv lua stats  > used cache path: readable+writable: '/home/chiatzenw/.texlive/texmf-var/luatex-cache/context/0399a8df3aef8d154781d0a9c2b8e28d'
-mkiv lua stats  > resource resolver: loadtime 0.022 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 16 found files, scanned paths: <none>
-mkiv lua stats  > stored bytecode data: 454 modules (0.276 sec), 96 tables (0.016 sec), 550 chunks (0.291 sec)
+mkiv lua stats  > resource resolver: loadtime 0.029 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 16 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 454 modules (0.319 sec), 96 tables (0.018 sec), 550 chunks (0.337 sec)
 mkiv lua stats  > traced context: maxstack: 1420, freed: 0, unreachable: 1420
 mkiv lua stats  > cleaned up reserved nodes: 66 nodes, 9 lists of 442
-mkiv lua stats  > node memory usage: 14 attribute, 4 attribute_list, 1 glue, 51 glue_spec, 3 kern, 2 penalty, 2 temp, 2 user_defined
-mkiv lua stats  > node list callback tasks: 8 unique task lists, 8 instances (re)created, 193 calls
+mkiv lua stats  > node memory usage: 19 attribute, 5 attribute_list, 2 glue, 51 glue_spec, 3 kern, 2 penalty, 2 temp, 2 user_defined
+mkiv lua stats  > node list callback tasks: 8 unique task lists, 8 instances (re)created, 212 calls
 mkiv lua stats  > driver time: 0.011 seconds 
 mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
 mkiv lua stats  > jobdata time: 0.002 seconds saving, 0.001 seconds loading
-mkiv lua stats  > callbacks: internal: 419, file: 519, direct: 2, late: 19, function 957, total: 1916 (1916 per page)
+mkiv lua stats  > callbacks: internal: 453, file: 522, direct: 2, late: 20, function 964, total: 1961 (1961 per page)
 mkiv lua stats  > randomizer: resumed with value 0.62162962462753
 mkiv lua stats  > result saved in file: resume.pdf, compresslevel 3, objectcompresslevel 1
 mkiv lua stats  > loaded patterns: en::1, load time: 0.000
-mkiv lua stats  > interactive elements: 10 references, 6 destinations
+mkiv lua stats  > interactive elements: 10 references, 7 destinations
 mkiv lua stats  > loaded fonts: 5 files: latinmodern-math.otf, lmmonolt10-bold.otf, texgyreheros-bold.otf, texgyreheros-italic.otf, texgyreheros-regular.otf
-mkiv lua stats  > font engine: otf 3.113, afm 1.513, tfm 1.000, 14 instances, 7 shared in backend, 3 common vectors, 4 common hashes, load time 0.238 seconds 
+mkiv lua stats  > font engine: otf 3.113, afm 1.513, tfm 1.000, 14 instances, 7 shared in backend, 3 common vectors, 4 common hashes, load time 0.229 seconds 
 mkiv lua stats  > pdf annotations: 10 links (10 unique), 0 special
 mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: usr
 mkiv lua stats  > used engine: luatex version: 1.1302, functionality level: 7430, banner: this is luatex, version 1.13.2 (tex live 2021/arch linux)
 mkiv lua stats  > used hash slots: 46817 of 65536 + 200000
-mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 117 MB, ctx: 117 MB, max: unknown MB, hash chars: min(64,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 0.706 seconds, 1 processed pages, 1 shipped pages, 1.416 pages/second
+mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 90 MB, ctx: 89 MB, max: unknown MB, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 0.742 seconds, 1 processed pages, 1 shipped pages, 1.348 pages/second
 

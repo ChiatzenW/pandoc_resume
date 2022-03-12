@@ -240,6 +240,18 @@ utilitydata.structures.lists.collected={
    ["title"]="Skills",
   },
  },
+ {
+  ["metadata"]=8,
+  ["references"]={
+   ["internal"]=7,
+   ["order"]=4,
+   ["realpage"]=1,
+   ["section"]=3,
+  },
+  ["titledata"]={
+   ["title"]="Other experiences",
+  },
+ },
 }
 
 if not utilitydata.structures then utilitydata.structures = { } end

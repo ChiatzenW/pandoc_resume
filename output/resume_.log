@@ -65,10 +65,10 @@ system          > start used files
 
 system          >    1: filename=char-prv.lua filetype=tex format=tex foundname=/usr/share/texmf-dist/tex/context/base/mkiv/char-prv.lua fullname=/usr/share/texmf-dist/tex/context/base/mkiv/char-prv.lua usedmethod=database
 system          >    2: filename=cont-yes.mkiv filetype=tex foundname=/usr/share/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv fullname=/usr/share/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv usedmethod=database
-system          >    3: filename=publ-imp-default.lua filetype=lua foundname=/usr/share/texmf-dist/tex/context/base/mkiv/publ-imp-default.lua fullname=/usr/share/texmf-dist/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
+system          >    3: filename=publ-imp-default.lua filetype=scripts foundname=/usr/share/texmf-dist/tex/context/base/mkiv/publ-imp-default.lua fullname=/usr/share/texmf-dist/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
 system          >    4: filename=cont-new.mkiv filetype=tex foundname=/usr/share/texmf-dist/tex/context/base/mkiv/cont-new.mkiv fullname=/usr/share/texmf-dist/tex/context/base/mkiv/cont-new.mkiv usedmethod=database
-system          >    5: filename=lang-exc.lua filetype=lua foundname=/usr/share/texmf-dist/tex/context/base/mkiv/lang-exc.lua fullname=/usr/share/texmf-dist/tex/context/base/mkiv/lang-exc.lua usedmethod=database
-system          >    6: filename=lang-us.lua filetype=lua foundname=/usr/share/texmf-dist/tex/context/patterns/mkiv/lang-us.lua fullname=/usr/share/texmf-dist/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
+system          >    5: filename=lang-exc.lua filetype=scripts foundname=/usr/share/texmf-dist/tex/context/base/mkiv/lang-exc.lua fullname=/usr/share/texmf-dist/tex/context/base/mkiv/lang-exc.lua usedmethod=database
+system          >    6: filename=lang-us.lua filetype=scripts foundname=/usr/share/texmf-dist/tex/context/patterns/mkiv/lang-us.lua fullname=/usr/share/texmf-dist/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
 system          >    7: filename=/home/chiatzenw/pandoc_resume/output/resume_.tex foundname=/home/chiatzenw/pandoc_resume/output/resume_.tex fullname=/home/chiatzenw/pandoc_resume/output/resume_.tex usedmethod=direct
 system          >    8: filename=type-imp-texgyre.mkiv filetype=tex foundname=/usr/share/texmf-dist/tex/context/fonts/mkiv/type-imp-texgyre.mkiv fullname=/usr/share/texmf-dist/tex/context/fonts/mkiv/type-imp-texgyre.mkiv usedmethod=database
 system          >    9: filename=lm.lfg filetype=tex foundname=/usr/share/texmf-dist/tex/context/fonts/mkiv/lm.lfg fullname=/usr/share/texmf-dist/tex/context/fonts/mkiv/lm.lfg usedmethod=database
@@ -110,25 +110,25 @@ modules         > stop used modules
 mkiv lua stats  > used config file: selfautodir:/share/texmf-dist/web2c/texmfcnf.lua
 mkiv lua stats  > used cache path: readable+writable: '/home/chiatzenw/.texlive/texmf-var/luatex-cache/context/0399a8df3aef8d154781d0a9c2b8e28d'
 mkiv lua stats  > resource resolver: loadtime 0.018 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 15 found files, scanned paths: <none>
-mkiv lua stats  > stored bytecode data: 454 modules (0.264 sec), 96 tables (0.015 sec), 550 chunks (0.279 sec)
+mkiv lua stats  > stored bytecode data: 454 modules (0.259 sec), 96 tables (0.015 sec), 550 chunks (0.274 sec)
 mkiv lua stats  > traced context: maxstack: 1420, freed: 0, unreachable: 1420
 mkiv lua stats  > cleaned up reserved nodes: 66 nodes, 9 lists of 442
 mkiv lua stats  > node memory usage: 14 attribute, 4 attribute_list, 1 glue, 52 glue_spec, 3 kern, 2 penalty, 2 temp, 2 user_defined
 mkiv lua stats  > node list callback tasks: 8 unique task lists, 8 instances (re)created, 205 calls
 mkiv lua stats  > driver time: 0.011 seconds 
 mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
-mkiv lua stats  > jobdata time: 0.002 seconds saving, 0.001 seconds loading
+mkiv lua stats  > jobdata time: 0.001 seconds saving, 0.001 seconds loading
 mkiv lua stats  > callbacks: internal: 457, file: 550, direct: 2, late: 16, function 1013, total: 2038 (2038 per page)
 mkiv lua stats  > randomizer: resumed with value 0.77030387381092
 mkiv lua stats  > result saved in file: resume_.pdf, compresslevel 3, objectcompresslevel 1
 mkiv lua stats  > loaded patterns: en::1, load time: 0.000
 mkiv lua stats  > interactive elements: 8 references, 5 destinations
 mkiv lua stats  > loaded fonts: 4 files: latinmodern-math.otf, texgyreheros-bold.otf, texgyreheros-italic.otf, texgyreheros-regular.otf
-mkiv lua stats  > font engine: otf 3.113, afm 1.513, tfm 1.000, 13 instances, 7 shared in backend, 3 common vectors, 4 common hashes, load time 0.234 seconds 
+mkiv lua stats  > font engine: otf 3.113, afm 1.513, tfm 1.000, 13 instances, 7 shared in backend, 3 common vectors, 4 common hashes, load time 0.219 seconds 
 mkiv lua stats  > pdf annotations: 8 links (8 unique), 0 special
 mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: usr
 mkiv lua stats  > used engine: luatex version: 1.1302, functionality level: 7430, banner: this is luatex, version 1.13.2 (tex live 2021/arch linux)
 mkiv lua stats  > used hash slots: 46861 of 65536 + 200000
-mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 90 MB, ctx: 89 MB, max: unknown MB, hash chars: min(64,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 0.672 seconds, 1 processed pages, 1 shipped pages, 1.488 pages/second
+mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 89 MB, ctx: 88 MB, max: unknown MB, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 0.632 seconds, 1 processed pages, 1 shipped pages, 1.582 pages/second
 
