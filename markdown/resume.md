@@ -36,7 +36,9 @@ Demonstrates skills with React, Material UI, and Github API(GraphQL).
 :  **[random-chinese-character-generator](https://github.com/ChiatzenW/random-chinese-character-generater)**
     A webapp that displayss a random chinese character when a button is pressed. Frontend written in html, backend is written in python and hosted by Amazon lambda.   
     Demonstrates skills with python, html and Amazon lambda.
-
+: **[youtube-music-player]([)](https://github.com/ChiatzenW/Youtube-music-player)**
+    A widget that takes in a string and downloads and play the first search result on Youtube. Written in python with Kivy graphic library.
+    Demonstrates skills with UI designing and audio controlling with Kivy.
 
     
 
@@ -50,7 +52,7 @@ Skills
 
 :   **Others:**
     Socket.io, GraphQL, Spring framework, CSS, Markdown, web hosting with heroku, Amazon lambda, sever hosting,material-ui design with javascript and react, experience with Android development.  
-    Basic knowledge of Linux administration and common Lisp.
+    Basic knowledge of Linux administration, Pascal and common Lisp.
 
 
 
