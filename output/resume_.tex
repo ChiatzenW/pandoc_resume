@@ -1,0 +1,146 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=397249]
+\definecolor[rulecolor][h=9cb770]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\defineitemgroup[enumerate]
+\setupenumerate[each][fit][itemalign=left,distance=.5em,style={\feature[+][default:tnum]}]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+\setupxtable[frame=off,option={stretch,width}]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\section[title={Chiaten Wang},reference={chiaten-wang}]
+
+{\bf Email}:
+\useURL[url1][mailto:chiatzen.wang@mail.utoronto.ca][][chiatzen.wang@mail.utoronto.ca]\from[url1]\crlf
+{\bf Phone}: \useURL[url2][tel:+quit:+1+647+325+8620][][(647)
+325-8620]\from[url2]\crlf
+{\bf Github}:
+\useURL[url3][https://github.com/ChiatzenW][][chiatzenW]\from[url3]\crlf
+{\bf Portfolio Site:} https://chiatzenw.github.io/portfolio/\crlf
+\subsection[title={Education},reference={education}]
+
+\startdescription{2020-present}
+  {\bf Bachelor of Science}; University of Toronro
+
+  \startitemize[packed]
+  \item
+    University College \letterbar{} GPA:3.90\crlf
+    Specialist in Computer Science
+  \stopitemize
+
+  {\bf Awards:} * Archibald Macmurchy Memorial Scholarship, 2020\crlf
+  * Dean's List, 2020\crlf
+  * University College Special In-Course Scholarship, 2021\crlf
+  * Dean's List, 2021
+\stopdescription
+
+\startplacetable[location=none]
+\startxtable
+\startxtablebody[body]
+\stopxtablebody
+\startxtablefoot[foot]
+\startxrow
+\startxcell Technical Experience \stopxcell
+\stopxrow
+\stopxtablefoot
+\stopxtable
+\stopplacetable
+
+\startdescription{Sample Projects}
+  {\bf \useURL[url4][https://github.com/ChiatzenW/pinnedItems_to_mui_cards][][pinned-item-to-mui-cards]\from[url4]:}
+  Javascript script that generates material ui cards from pinned items
+  on Github page. Demonstrates skills with React, Material UI, and
+  Github API(GraphQL).
+
+  {\bf \useURL[url5][https://github.com/ChiatzenW/what-did-schiller-say][][what-did-schiller-say]\from[url5]}
+  A webapp hosted on Heroku that given a string will search for its
+  occurrences in Schiller's {\em The Robber}, parsed and stored in SQL
+  database from Project Gutenberg. Demonstrates skills with SQL and web
+  hosting with heroku.
+
+  {\bf \useURL[url6][https://github.com/ChiatzenW/random-chinese-character-generater][][random-chinese-character-generator]\from[url6]}
+  A webapp that displayss a random chinese character when a button is
+  pressed. Frontend written in html, backend is written in python and
+  hosted by Amazon lambda.\crlf
+  Demonstrates skills with python, html and Amazon lambda.
+\stopdescription
+
+\startdescription{Skills}
+  {\bf Languages:} Python, java, javascript, lua, C, C++, Shellscript
+
+  {\bf Graphic Libraries:}
+  \useURL[url7][https://love2d.org/][][Love]\from[url7], pygame,
+  \useURL[url8][https://kivy.org/\#home][][Kivy]\from[url8], CanvasJS
+
+  {\bf Others:} Socket.io, GraphQL, Spring framework, CSS, Markdown, web
+  hosting with heroku, Amazon lambda, sever hosting,material-ui design
+  with javascript and react, experience with Android development.\crlf
+  Basic knowledge of Linux administration and common Lisp.
+\stopdescription
+
+\thinrule
+
+\stoptext
